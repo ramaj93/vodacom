@@ -1,0 +1,241 @@
+
+/* Selectie */
+::selection {
+background:#000;
+color:#fff;
+}
+::-moz-selection {
+background:#000;
+color:#fff;
+}
+::-webkit-selection {
+background:#000;
+color:#fff;
+}
+
+.menu:hover {
+background: rgba(0, 0, 0, .12);
+}
+.menu:active {
+background: rgba(0, 0, 0, .35);
+}
+.menu_hover_messages, .menu_hover_notifications {
+background: rgba(0, 0, 0, .12);
+}
+.menu_name {
+float: right;
+margin-top: 15px;
+padding-right: 10px;
+color: #fff;
+}
+.menu_visitor {
+float: right;
+margin-top: 15px;
+padding-right: 10px;
+color: #fff;
+}
+
+.menu_btn img {
+margin-top: 10px;
+width: 16px;
+height: 16px;
+}
+.menu_btn:hover {
+background: rgba(0, 0, 0, .12);
+}
+.menu_btn:active {
+background: rgba(0, 0, 0, .35);
+}
+
+
+.message-private-btn {
+background: url('images/icons/private_post.png') no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+cursor: pointer;
+}
+.message-private-btn:hover {
+background: url('images/icons/private_post_h.png') no-repeat;
+background-size: 16px;
+width: 16px;
+height: 16px;
+}
+#notifications_btn, #messages_btn {
+cursor: pointer;
+width: 16px;
+}
+.notificatons-number-container {
+float:left;
+margin-right: 4px;
+}
+.notifications-number {
+background: #f84049; /* Old browsers */
+background: -moz-linear-gradient(top, #f84049 0%, #da121c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f84049), color-stop(100%,#da121c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f84049 0%,#da121c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f84049 0%,#da121c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f84049 0%,#da121c 100%); /* IE10+ */
+background: linear-gradient(to bottom, #f84049 0%,#da121c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f84049', endColorstr='#da121c',GradientType=0 ); /* IE6-9 */
+border-radius: 3px;
+padding: 0.5px 4px;
+font-size: 10px;
+position: absolute;
+margin: -30px 0 0 9px;
+color: #fff;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+@media only screen and (max-device-width: 1002px), only screen and (device-width: 1024px) and (device-height: 1002px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 1002px), only screen and (max-width: 1002px) {	
+	.row-body {
+	border: 0;
+	overflow: auto;
+	}
+	.row-footer {
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	margin: 0 auto;
+	overflow: auto;
+	}
+	.row-top .threeads img {
+	width: 100%;
+	}
+}
+/* ------------------- !MOBILE ----------------------- */
+@media only screen and (max-device-width: 600px), only screen and (device-width: 600px) and (device-height: 600px), only screen and (width: 600px) and (orientation: landscape), only screen and (device-width: 600px), only screen and (max-width: 600px) {
+	.logo {
+	display: none;
+	}
+	.logo-small {
+	display: block;
+	}
+	.row-body .two {
+	width: 100%;
+	}
+	.row-body .ten {
+	width: 100%;
+	}
+	.row-body .twenty {
+	width: 100%;
+	}
+	.row .three {
+		width: 100%;
+	}
+	.row-body .threeads {
+		width: 100%;
+	}
+	.row-body .threeads img {
+		width: auto;
+		height: auto;
+	}
+	.row-body .nine {
+		width: 100%;
+	}
+	.row-body .three {
+		width: 100%;
+	}
+	.row .four {
+		width: 100%;
+	}
+	.row .eight {
+		width: 100%;
+	}
+	.row .six { 
+		width: 50%; 
+	}
+	.row .seven {
+		width: 100%;
+	}
+	.row-page .three {
+	width: 100%;
+	}
+	.row-page .nine {
+	width: 100%;
+	}
+	.row-one {
+	float: left;
+	width: 100%;
+	padding: 3px 0;
+	}
+	.row-two {
+	float: left;
+	width: 100%;
+	padding: 3px 0;
+	}
+	.row-three {
+	float: left;
+	width: 100%;
+	padding: 3px 0;
+	text-align: left;
+	}
+	.row-four {
+	float: left;
+	width: 100%;
+	padding: 3px 0;
+	text-align: left;
+	}
+	.message-container {
+	padding: 0 10px 10px 10px;
+	}
+	.cover-container {
+	height: auto;
+	}
+	.cover-username {
+	font-size: 15px;
+	margin: 0 0 5px 0;
+	}
+	.cover-username img {
+	width: 14px;
+	height: 14px;
+	margin: 0 0 -2px 4px;
+	}
+	.cover-description-buttons {
+	float: right;
+	overflow: auto;
+	display: block;
+	width: 65px;
+	}
+	.sidebar-container {
+	padding: 10px;
+	}
+	#values {
+	width: 230px;
+	}
+	.page-input-title {
+	width: 100%;
+	text-align: left;
+	padding: 3px 0;
+	}
+	.page-input-sub {
+	padding: 3px 0;
+	width: 100%;
+	min-width: 100%;
+	}
+	.page-input-content {
+	width: 90%;
+	}
+	.page-settings-container {
+	padding: 10px;
+	}
+	.row-page .stats-container {
+	width: 100%;
+	}
+	.admin-rows { border-bottom: 1px solid #ccc; }
+	.row-page .table-id, .row-page .table-user, .row-page .table-mail, .row-page .table-edit, .row-page .table-delete { width: 100%; }
+	.row-page .table-report-id, .row-page .table-report-type, .row-page .table-user, .row-page .table-report-message, .row-page .table-report-safe { width: 100%; }
+	.subslist {
+	right: 20px;
+	}
+	.subslist_message {
+	right: 53px;
+	}
+	.notification-container {
+	position: static !important; /* Overrides the JS */
+	}
+	.notification-content {
+	margin: 1px -1px 0 0;
+	}
+}
